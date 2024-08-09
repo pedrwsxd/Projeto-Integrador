@@ -1,0 +1,11 @@
+@import url(reset.css);
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #FF3CB9;
+}
+
+header a {
+    color: azure;
+}

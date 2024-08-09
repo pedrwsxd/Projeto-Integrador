@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Truck</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+        </div>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2">Sobre nós</a></li>
+            <li><a href="#" class="nav-link px-2">Cardápio</a></li>
+            <li><a href="#" class="nav-link px-2">Contatos</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+            <button type="button" class="btn btn-primary">Cadastrar-se</button>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section id="Home">
+            <h1 class="bemvindo">Bem-vindo ao Ice Cream Churros! 🎉</h1>
+            <h2 class="mensagembemvindo">
+                Estamos super empolgados em ter você aqui! Prepare-se para se deliciar com os melhores churros da
+                cidade, crocantes por fora, macios por dentro, e com recheios irresistíveis. Sinta-se à vontade, faça
+                seu pedido, e aproveite essa explosão de sabores! Se precisar de recomendações ou tiver alguma dúvida,
+                estamos prontos para ajudar.
+                Bom apetite! 🍩✨</h2>
+            <figure class="class">
+                <img src="img/icon/Instagram Circle.png" alt="Instagram" class="class" width="30">
+            </figure>
+
+            <button>Saiba Mais</button>
+        </section>
+
+    </main>
+    <section class="cardapio">
+        <h1>Veja Nosso Cardápio</h1>
+
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="" class="d-block w-100" alt="Foto do cardápio">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="Foto do cardápio">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="Foto do cardápio">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+
+    <section class="formulario">
+        <h1>Fale Conosco</h1>
+        <br>
+        <label for="campo-nome">Nome Completo:</label> <input id="campo-nome" type="text"
+            placeholder="digite seu nome completo" required>
+        <br>
+        <label for="campo-email">Email:</label> <input id="campo-email" type="email" placeholder="digite seu email"
+            required>
+        <br>
+        <label for="campo-telefone"> Número do telefone:</label> <input id="campo-telefone" type="passeword"
+            placeholder="digite seu telefone" required>
+        <br>
+        <h4>Mensagem:</h4>
+        <br>
+        <textarea placeholder="digite sua mensagem" cols="15 linhas" rows="15 linhas"></textarea>
+        <br>
+        <input type="submit" value="Enviar"  >
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
