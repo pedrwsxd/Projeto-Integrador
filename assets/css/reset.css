@@ -15,6 +15,10 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    height: 100vh;
+    min-width: 360px;
+    line-height: 1;
+    font-family: "Barlow Italic";
   }
   img, picture, video, canvas, svg {
     display: block;
@@ -30,4 +34,12 @@
     isolation: isolate;
   }
 
-  
+  nav ul li {
+    display: block;
+    list-style-type: none;
+    font-style: normal;
+    list-style: none;
+  }
+  ul li a{
+    text-decoration: none;
+  }
