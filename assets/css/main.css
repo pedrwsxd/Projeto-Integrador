@@ -1,5 +1,5 @@
 .video-background {
-    background-color: rgba(0, 0, 0, 0.433);
+    background-color: rgba(0, 0, 0, 0.8);
     position: relative;
     width: 100%;
     height: 100vh;
@@ -24,23 +24,23 @@
     /* Coloca o vídeo atrás do conteúdo */
 }
 
+.video-background{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-column: 12;
+}
+
 
 
 .video-background .content {
     width: 500px;
-    
     border-radius: 50px;
     display: flex;
-    justify-content: center;
-    align-items: start;
     flex-direction: column;
     position: relative;
-    left: 55%;
-    top: 20%;
     z-index: 1;
     color: #fff;
-    text-align: left;
-    padding: 20px;
 }
 
 .video-background .content h1 {
