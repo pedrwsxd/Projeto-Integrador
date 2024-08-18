@@ -2,23 +2,24 @@
 @import url(fonte.css);
 @import url(header.css);
 @import url(main.css);
+@import url(cardapio.css);
 @import url(scroll-bar.css);
 
 
-.animacao1{
+.animacao1 {
     transition: .5s;
 }
 
-.animacao1:hover{
+.animacao1:hover {
     transform: scale(1.1);
 }
 
-.container-header{
+.container-header {
     width: 100%;
     height: 90px;
     max-width: 1180px;
     margin: auto;
-    
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -26,7 +27,7 @@
     justify-content: space-between;
 }
 
-.container-main{
+.container-main {
     width: 100%;
     height: 100vh;
     max-width: 1180px;
@@ -35,3 +36,14 @@
     justify-content: end;
     align-items: center;
 }
+
+.container-cardapio {
+    width: 100%;
+    height: 100vh;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+

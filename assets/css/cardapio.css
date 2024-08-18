@@ -1,0 +1,24 @@
+.titulo {
+    color: #FF3CB9;
+    text-align: center;
+    font-family: "Teko";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    padding-top: 90px;
+    /* 100% */
+    /* 71.429% */
+}
+
+.sub-titulo {
+    color: #5A45A2;
+    text-align: center;
+    font-family: "Sulphur Point";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    width: 559px;
+    height: 122px;
+}
