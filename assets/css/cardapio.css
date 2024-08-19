@@ -7,18 +7,37 @@
     font-weight: 700;
     line-height: 50px;
     padding-top: 90px;
-    /* 100% */
-    /* 71.429% */
+    
 }
 
 .sub-titulo {
     color: #5A45A2;
+    width: 100%;
     text-align: center;
     font-family: "Sulphur Point";
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
-    width: 559px;
-    height: 122px;
+}
+
+.style-card-c{
+    width: 406px;
+    height: 507px;
+    border: 1px solid #FF3CB9;
+    padding: 14px 11px 15px 12px;
+}
+
+.card-cardapio{
+    width: 406px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-card-cardapio{
+    display: grid;
+    grid-template-columns: 410px 410px;
+    justify-content: space-between;
+    padding: 14px 11px 15px 12px;
 }
