@@ -1,3 +1,8 @@
+#cardapio{
+    width: 100%;
+    height: 1270px;
+}
+
 .container-cardapio {
     width: 100%;
     height: 100vh;
@@ -51,4 +56,16 @@
     grid-template-columns: 410px 410px;
     justify-content: space-between;
     padding: 14px 11px 15px 12px;
+}
+
+.img-cadapio{
+    width: 100%;
+    height: 436px;
+    background-image: url(../img/icon/caminhaorosa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 350px;
+    margin-top: -90px;
+    opacity: 0.5;
 }
