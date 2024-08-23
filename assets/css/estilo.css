@@ -4,7 +4,7 @@
 @import url(main.css);
 @import url(cardapio.css);
 @import url(scroll-bar.css);
-
+@import url(footer.css);
 
 .button-style1{
     color: #FFF;
@@ -29,37 +29,9 @@
     transform: scale(1.1);
 }
 
-.container-header {
-    width: 100%;
-    height: 90px;
-    max-width: 1180px;
-    margin: auto;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.container-main {
-    width: 100%;
-    height: 100vh;
-    max-width: 1180px;
-    margin: auto;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
 
-.container-cardapio {
-    width: 100%;
-    height: 100vh;
-    max-width: 1180px;
-    margin: auto;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 
