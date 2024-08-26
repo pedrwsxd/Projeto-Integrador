@@ -1,11 +1,12 @@
 @import url(reset.css);
 @import url(fonte.css);
 @import url(header.css);
-@import url(main.css);
+@import url(apresentacao.css);
 @import url(contato.css);
 @import url(cardapio.css);
 @import url(scroll-bar.css);
 @import url(footer.css);
+@import url(sobre.css);
 
 .button-style1{
     color: #FFF;
