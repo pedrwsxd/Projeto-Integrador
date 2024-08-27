@@ -70,3 +70,10 @@ input {
     color: #FD44BB;
     width: 229px;
 }
+
+@media (max-width: 768px) {
+    .container-footer-contato{
+        margin-top: 200px;
+    }
+    
+  }
