@@ -7,6 +7,8 @@
 @import url(scroll-bar.css);
 @import url(footer.css);
 @import url(sobre.css);
+@import url(paineldelogin.css);
+
 
 .button-style1{
     color: #FFF;
@@ -41,15 +43,26 @@
 .button-style2:hover{
     color: #000000;
     box-shadow: 0px 30px 60px -12px rgba(253, 68, 187, 1) inset, 0px 18px 36px -18px rgba(0, 0, 0, 0.30) inset;
+    border: 1px #FD44BB solid;
+}
+
+.button-style3{
+    color: #FD44BB;
+    box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.25) inset, 0px 18px 36px -18px rgba(0, 0, 0, 0.30) inset;
     margin-top: 40px;
-    width: 405.055px;
-    height: 80.825px;
+    width: 200.055px;
+    height: 40.825px;
     font-family: "Teko";
-    font-size: 30.688px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     border-radius: 30.688px;
+    border: 1px #000000 solid;
+}
+
+.button-style3:hover{
+    color: #000000;
+    box-shadow: 0px 30px 60px -12px rgba(253, 68, 187, 1) inset, 0px 18px 36px -18px rgba(0, 0, 0, 0.30) inset;
     border: 1px #FD44BB solid;
 }
 
